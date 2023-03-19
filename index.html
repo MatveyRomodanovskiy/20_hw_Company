@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Persons</title>
+    <link rel="stylesheet" href="./todo.css">
+    <script src="./utils.js" defer></script>
+    <script src="./employee.js" defer></script>
+    <script src="./company.js" defer></script>
+    <script src="./script.js" defer></script>
+</head>
+<body>
+<div>
+    <label>ID:
+        <input type="text" id="personId" required autofocus>
+    </label>
+    <label>First name:
+        <input type="text" id="firstName" required>
+    </label>
+    <label>Last name:
+        <input type="text" id="lastName" required>
+    </label>
+    <label>Birthdate:
+        <input type="date" id="age"  max="2023-03-16" required>
+    </label>
+    <label>Salary:
+        <input type="number" id="salary"  min="0" required>
+    </label>
+</div>
+<button id="addPerson">Add person</button>
+<button id="calcStats">Get stats</button>
+<div id="stats">
+    <h2 id="statsTitle">Stats</h2>
+</div>
+<div>
+    <h2>Persons</h2>
+    <ol id="personsList"></ol>
+</div>
+</body>
+</html>
