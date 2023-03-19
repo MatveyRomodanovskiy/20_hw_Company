@@ -10,7 +10,7 @@
     <script src="./script.js" defer></script>
 </head>
 <body>
-<div>
+<div id="input">
     <label>ID:
         <input type="text" id="personId" required autofocus>
     </label>
@@ -27,12 +27,14 @@
         <input type="number" id="salary"  min="0" required>
     </label>
 </div>
+<div id="inputButtons">
 <button id="addPerson">Add person</button>
 <button id="calcStats">Get stats</button>
+</div>
 <div id="stats">
     <h2 id="statsTitle">Stats</h2>
 </div>
-<div>
+<div id="persons">
     <h2>Persons</h2>
     <ol id="personsList"></ol>
 </div>

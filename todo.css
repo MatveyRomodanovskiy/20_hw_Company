@@ -1,4 +1,71 @@
+
+#input{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+}
+label{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7px;
+}
+#inputButtons{
+    display: flex;
+    flex-direction: row;
+    margin: 4px;
+    justify-content: flex-start;;
+}
+button{
+    margin: 3px;
+}
+ul{
+    margin-top: 0;
+}
+ol{
+    margin-top: 0;
+}
+    @media (min-width: 600px){
 .del{
     color: red;
     margin-left: 5px;
 }
+#input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#stats{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#inputButtons{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: center;;
+}
+#personId{
+    width: 10vw;
+}
+#salary{
+    width: 10vw;
+}
+#persons{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#personsList{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    display: flex;
+    flex-direction: column;
+}
+
+
+    }
